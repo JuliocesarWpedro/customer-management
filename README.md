@@ -20,8 +20,8 @@ Composer - 2.7.7
 
 #### Clone o repositório localmente
 
-git clone [https://github.com/JuliocesarWpedro/manage-clients](https://github.com/JuliocesarWpedro/manage-clients)
-cd manage-clients
+git clone [https://github.com/JuliocesarWpedro/customer-management](https://github.com/JuliocesarWpedro/customer-management)
+cd customer-management
 
 #### Instale as dependências do PHP
 
