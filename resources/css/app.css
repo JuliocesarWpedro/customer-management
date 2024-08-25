@@ -1,0 +1,108 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.client-card {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  position: relative; 
+}
+
+.client-card:not(:last-child)::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ddd; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.client-card div {
+  margin-bottom: 0.5rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row; 
+  gap: 0.5rem; 
+flex-wrap: wrap;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+.btn-icon svg {
+  flex-shrink: 0; 
+  margin-right: 0.5rem; 
+}
+
+.table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.table thead th {
+  background-color: #f8f9fa; 
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+.modal-backdrop.show {
+  opacity: 0.5;
+  background-color: #000;
+}
+
+.modal.show {
+  display: block;
+  padding-right: 17px; 
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.modal-overlay {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-dialog {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 90%;
+}
+
+.modal-content {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
