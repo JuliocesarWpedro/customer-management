@@ -16,49 +16,50 @@ Node - v20.13.1
 PHP -  8.3.10
 Composer - 2.7.7
 
-### Instalação
+## Instalação
 
-#### Clone o repositório localmente
+## Clone o repositório localmente
 
 git clone [https://github.com/JuliocesarWpedro/customer-management](https://github.com/JuliocesarWpedro/customer-management)
+
 cd customer-management
 
-#### Instale as dependências do PHP
+## Instale as dependências do PHP
 
 composer install
 
-#### Instale as dependências do NPM
+## Instale as dependências do NPM
 
 npm install
 
-#### Configure o .env da aplicação
+## Configure o .env da aplicação
 
 cp .env.example .env
 
-#### Gere a chave da aplicação
+## Gere a chave da aplicação
 
 php artisan key:generate
 
-#### Utilize um banco de dados mysql local
+## Utilize um banco de dados mysql local
 
 php artisan migrate
 
-#### Execute o servidor artisan
+## Execute o servidor artisan
 
 php artisan serve
 
-#### Execute o vite
+## Execute o vite
 
 npm run dev
 
-#### Você pode vizualizar essa aplicação no seguinte link:
+## Você pode vizualizar essa aplicação no seguinte link:
 
 http://159.65.218.242/
 
 Essa aplicação está rodando em uma VM hospedada na Digital Ocean. Para as sessões tanto do Vite quanto do PHP, utilizei o screen.
 Para o servidor web, utilizei o Nginx, configurando-o como proxy reverso e também aloquei ele como uma instância de teste.
 
-##### Contato
+### Contato
 
 Email: juliowpedro@gmail.com
 Whatsapp: (22) 98874-8242
