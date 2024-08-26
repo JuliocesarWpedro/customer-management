@@ -1,6 +1,6 @@
 # Gerenciamento de Clientes utilizando Laravel, Mysql, Inertia.js, Bootstrap, React e Typescript - Julio Cesar Wanderosfky Pedro
 
-Este projeto implementa um sistema completo de gerenciamento de clientes, permitindo a adição, edição, exclusão e visualização individual de clientes. Além disso, a aplicação conta com funcionalidades de filtro de clientes por nome e paginação de registros, sendo totalmente responsiva para diferentes dispositivos.
+Este projeto implementa um sistema completo de gerenciamento de clientes, permitindo a adição, edição, exclusão e visualização individual de clientes. Além disso, a aplicação conta com funcionalidades de filtro de clientes por nome e paginação, sendo totalmente responsiva para diferentes dispositivos.
 
 ## Funcionalidades Principais
 
@@ -51,7 +51,12 @@ php artisan serve
 
 npm run dev
 
-Você pode vizualizar essa aplicação no seguinte link:
+#### Você pode vizualizar essa aplicação no seguinte link:
+
+http://159.65.218.242/
+
+Essa aplicação está rodando em uma VM hospedada na Digital Ocean. Para as sessões tanto do Vite quanto do PHP, utilizei o screen.
+Para o servidor web, utilizei o Nginx, configurando-o como proxy reverso e também aloquei ele como uma instância de teste.
 
 ##### Contato
 
